@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="First task">
+      <HintPath>..\..\..\semestr 1\lab 15\First task\bin\Debug\netcoreapp3.1\First task.dll</HintPath>
+    </Reference>
+    <Reference Include="lab 16-17">
+      <HintPath>..\..\..\semestr 1\lab 16-17\variant 15\lab 16-17\bin\Debug\netcoreapp3.1\lab 16-17.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
