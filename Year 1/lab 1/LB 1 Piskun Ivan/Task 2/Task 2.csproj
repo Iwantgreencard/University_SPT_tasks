@@ -6,10 +6,4 @@
     <RootNamespace>LB_1_Piskun_Ivan</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Task 1\**" />
-    <EmbeddedResource Remove="Task 1\**" />
-    <None Remove="Task 1\**" />
-  </ItemGroup>
-
 </Project>

@@ -25,6 +25,8 @@ namespace _2_3
             Console.WriteLine("a = " + a);
             Console.WriteLine("x = " + x);
             Console.WriteLine("y = " + y);
+
+            Console.ReadKey();
         }
     }
 }

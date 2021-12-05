@@ -3,13 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>LB_1_Piskun_Ivan</RootNamespace>
+    <RootNamespace>lab_21</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Task 1\**" />
-    <EmbeddedResource Remove="Task 1\**" />
-    <None Remove="Task 1\**" />
+    <Reference Include="Voucher">
+      <HintPath>..\..\dll`s\Voucher\Voucher\bin\Debug\Voucher.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

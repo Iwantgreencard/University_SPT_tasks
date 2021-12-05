@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Voucher
 {
@@ -17,26 +19,31 @@ namespace Voucher
         protected internal string[] servicing_types = { "Bussines", "Comfort", "VIP" };
 
         // Властивості
+        [JsonPropertyName("id")]
         public int Id
         {
             get { return id; }
             set { this.id = value; }
         }
+        [JsonPropertyName("country")]
         public string Country
         {
             get { return country; }
             set { this.country = value; }
         }
+        [JsonPropertyName("period")]
         public int Period
         {
             get { return period; }
             set { this.period = value; }
         }
+        [JsonPropertyName("servicing")]
         public string Servicing
         {
             get { return servicing; }
             set { this.servicing = value; }
         }
+        [JsonPropertyName("cost")]
         public int Cost
         {
             get { return cost; }
